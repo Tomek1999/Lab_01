@@ -1,0 +1,10 @@
+﻿1. Utworzenie bazy danych
+2. Utworzenie widoków aplikacji
+3. Utworzenie funckji obsługi widoków
+4. Obsłiuga danych pobieranych z widoku
+5. Hashowanie danych użytkownika 
+6. Obsługa bazy danych Entity framework
+7. Utworzenie dokumentacji 
+8. Testy jednostkowe
+9. Przygotowanie instalatora aplkikacji 
+10. Wdrożenie aplikacji 

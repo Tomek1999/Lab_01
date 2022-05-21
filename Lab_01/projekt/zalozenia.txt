@@ -1,0 +1,34 @@
+﻿Wizualne założenia projektu:
+1.	Okno powitalne z możliwością logowania lub rejestracji użytkownika 
+2.	Widok rejestracji użytkownika 
+3.	Widok ustawień połączenia z serwerem
+4.	Okno główne aplikacji z kafelkowym wyborem funkcji programu
+5.	Widok menu bocznego
+6.	Widok funkcji:
+•	dodawanie nowego urządzenia
+•	dodawanie komponentów urządzenia
+•	generowanie zamówienia
+•	dodawanie kontrahentów 
+•	dodawanie danych kontrahentów 
+•	Wysyłanie wiadomości email z wygenerowanym zamówieniem
+•	Dodanie zamówienia do stanu magazynowego
+
+Techniczne założenia projektu :
+1.	Baza danych
+•	Tabela Użytkownicy
+•	Tabela Urządzenia
+•	Tabela Kontrahenci
+•	Tabela Zamówienia
+•	Tabela Stany_Magazynowe
+2.	OMR
+•	Dodawanie rekordów do bazy
+•	Pobieranie rekordów z bazy
+•	Modyfikowanie rekordów w bazie
+
+
+
+
+
+
+
+
