@@ -16,7 +16,7 @@ namespace Lab_07_Entity
             
             // await InsertData(homeWorkContext);
             // await ReadFromServer(homeWorkContext);
-            // UpdatePassword(homeWorkContext, "Sarah", "#@!$%^&*");
+            // UpdatePassword(homeWorkContext, "Sarah", "************");
             //RemoveReport(homeWorkContext, "report");
 
         }
