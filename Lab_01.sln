@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iwenty", "Iwenty\Iwenty.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_07_Entity", "Lab_07_Entity\Lab_07_Entity.csproj", "{559B8D4D-F9AD-4549-BC49-59AABAFE448E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_9_WPF", "Lab_9_WPF\Lab_9_WPF.csproj", "{34267225-95C5-488E-825F-EC6FB5B74EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_9_WPF", "Lab_9_WPF\Lab_9_WPF.csproj", "{34267225-95C5-488E-825F-EC6FB5B74EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{9A6045F5-0BC1-4880-9E5F-81CD6B9ACA17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{34267225-95C5-488E-825F-EC6FB5B74EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34267225-95C5-488E-825F-EC6FB5B74EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34267225-95C5-488E-825F-EC6FB5B74EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6045F5-0BC1-4880-9E5F-81CD6B9ACA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6045F5-0BC1-4880-9E5F-81CD6B9ACA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6045F5-0BC1-4880-9E5F-81CD6B9ACA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6045F5-0BC1-4880-9E5F-81CD6B9ACA17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
