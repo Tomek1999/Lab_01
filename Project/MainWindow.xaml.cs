@@ -47,7 +47,9 @@ namespace Project
                 usr.Password = password.Password;
                 if (CheckUser(usr) == true)
                 {
-
+                    MainPage mp = new MainPage(usr.Name);
+                    this.Close();
+                    mp.Show();
                 }
                 else
                 {

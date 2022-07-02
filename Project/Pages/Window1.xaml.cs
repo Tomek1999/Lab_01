@@ -34,8 +34,6 @@ namespace Project.Pages
             User usr = new User();
             if (username.Text != "" & email.Text != "" & password.Password != "")
             {
-                MessageBox.Show("BAGNOS", "Error");
-
                 usr.Name = username.Text;
                 usr.Email = email.Text;
                 usr.Password = password.Password ;
@@ -43,6 +41,7 @@ namespace Project.Pages
                 if (AddUser(usr) == true)
                 {
                     MessageBox.Show("User Added", "Error");
+                    this.Close();
 
                 }
                 else
