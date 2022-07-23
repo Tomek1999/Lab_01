@@ -17,9 +17,7 @@ using System.Windows.Shapes;
 
 namespace Project.Pages
 {
-    /// <summary>
-    /// Logika interakcji dla klasy devices.xaml
-    /// </summary>
+
     public partial class devices : Page
     {
         public string user;
@@ -27,11 +25,17 @@ namespace Project.Pages
         public devices(string username)
         {
             user = username;
+            
             InitializeComponent();
+
             LoadData();
         }
+        ///<summary>
+        ///Load devices list from MSSQL and add this item into ListView
+        /// </summary>
         public void LoadData()
         {
+
             dev = new List<Devices>();
             Context context = new Context();
 
@@ -43,19 +47,20 @@ namespace Project.Pages
                 ListViewProducts.ItemsSource = dev;
 
         }
-
-        private void addNew_Click(object sender, RoutedEventArgs e)
-        {
+        ///<summary>
+        ///Add new device into database
+        /// </summary>
+        private void addNew_Click(object sender, RoutedEventArgs e){
             AddNewDevices and = new AddNewDevices(user);
             and.Show();
         }
 
-        private void ButtonItemClick(object sender, RoutedEventArgs e)
-        {
-
+        ///<summary>
+        ///Add new component for device 
+        /// </summary>
+        private void ButtonItemClick(object sender, RoutedEventArgs e){
            component comp = new component(user, (string)((Button)sender).Tag);
            Component.Content = comp;
-
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Lab_9_WPF
 
             int pageNumber = 1;
             int pageSize = 5;
-            string snippetsType = "cs";
+            string snippetsType = "cpp";
 
             PageReposne reponse = FetchSnippets(pageNumber, pageSize, snippetsType);
 

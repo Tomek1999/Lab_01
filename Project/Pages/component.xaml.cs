@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 namespace Project.Pages
 {
     /// <summary>
-    /// Logika interakcji dla klasy component.xaml
+    /// Component page- Load components
     /// </summary>
     public partial class component : Page
     {
@@ -39,6 +39,9 @@ namespace Project.Pages
 
         public void LoadData()
         {
+            ///<summary>
+            ///Load data from MSSQL using entityFramework and Lambda
+            ///</summary>
             CompList = new List<Component>();
             Context context = new Context();
 
@@ -53,6 +56,9 @@ namespace Project.Pages
         }
         private void addNew_Click(object sender, RoutedEventArgs e)
         {
+            ///<summary>
+            ///Open new window for add a new component into devices
+            ///</summary>
             NewComponent and = new NewComponent(user, dev);
             and.Show();
         }

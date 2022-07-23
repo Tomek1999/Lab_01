@@ -15,9 +15,7 @@ using Project.Entities;
 
 namespace Project.Pages
 {
-    /// <summary>
-    /// Logika interakcji dla klasy Window1.xaml
-    /// </summary>
+
     public partial class Window1 : Window
     {
         public Window1()
@@ -28,7 +26,9 @@ namespace Project.Pages
         {
             Close();
         }
-
+        ///<summary>
+        ///Adding new user
+        /// </summary>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             User usr = new User();

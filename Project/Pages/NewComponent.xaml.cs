@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Project.Pages
 {
-    /// <summary>
-    /// Logika interakcji dla klasy NewComponent.xaml
-    /// </summary>
+
     public partial class NewComponent : Window
     {
         string user;
@@ -28,7 +26,9 @@ namespace Project.Pages
             user = usr;
             InitializeComponent();
         }
-
+        ///<summary>
+        ///Adding new component
+        /// </summary>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Component component = new Component();

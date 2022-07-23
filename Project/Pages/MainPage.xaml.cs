@@ -14,9 +14,7 @@ using System.Windows.Shapes;
 
 namespace Project.Pages
 {
-    /// <summary>
-    /// Logika interakcji dla klasy MainPage.xaml
-    /// </summary>
+
     public partial class MainPage : Window
     {
         public string user;
@@ -25,12 +23,16 @@ namespace Project.Pages
             user = username;
             InitializeComponent();
         }
-
+        ///<summary>
+        /// Close button
+        /// </summary>
         private void close_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
+        ///<summary>
+        ///Open new page for component
+        /// </summary>
         private void devices_Click(object sender, RoutedEventArgs e)
         {
             devices dc = new devices(user);
